@@ -169,4 +169,26 @@ body {
 .todo_list_div::-webkit-scrollbar-thumb {
   background-color: rgb(184, 184, 184);
 }
+
+@media screen and (max-width: 768px){
+  .main {
+    width: 34rem;
+    height: 25rem;
+  }
+}
+
+@media screen and (max-width: 576px){
+  .main {
+    width: 24rem;
+    height: 19rem;
+  }
+
+  .main_left_box {
+    width: 30%;
+  }
+
+  .main_right_box {
+    width: 70%;
+  }
+}
 </style>
