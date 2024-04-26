@@ -152,4 +152,14 @@ function removeTodo(index){
     border-radius: 3px;
     padding: 5px;
 }
+
+@media screen and (max-width:768px) {
+    .header form input {
+        width: 80%;
+    }
+
+    .header form button {
+        width: 20%;
+    }
+}
 </style>
